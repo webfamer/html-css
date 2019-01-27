@@ -1,0 +1,186 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<style>
+	.bg-img{
+		background: url("img/backgro.png") no-repeat;
+		margin: 50px auto;
+		width: 1000px;
+		height: 689px;
+		position: relative;
+	}
+	.bg{
+		width:761px;
+		height: 363px;
+		margin: auto;
+		background: #fff;
+		position: absolute;
+		top:0;
+		left: 0;
+		right: 0;
+		bottom:0;
+	}
+	.bg>header{
+		width:661px;
+		height: 51px;
+		line-height: 51px;
+		margin: 0 auto; 
+		border-top: 2px solid #e7788d;
+		margin-top: 45px;
+		background: url(img/earth.png) no-repeat  0px 14px ;
+	}
+	.bg>header span{
+		color: #e98396;
+		font: 14px/51px mircosoft yahei bold;
+		padding-left: 35px;
+	}
+	.contain{
+		width:661px;
+		height: 146px;
+		margin: 0 auto;
+		border-bottom: 1px dashed #e5e5e5;
+	}
+	.modu{
+		width: 98px;
+		height: 134px;
+		border:1px solid #e5e5e5;
+		float: left;
+		margin-right: 40px;
+	}
+	.modu:last-child{
+		margin: 0;
+	}
+	.icon{
+		height: 98px;
+		justify-content: center;
+		line-height: 98px;
+		display: flex;
+		align-items: center;
+	}
+	.modu>span{
+		height: 36px;
+		width: 98px;
+		font-size: 14px;
+		display: inline-block;
+		line-height: 36px;
+		text-align: center;
+		color: #7d7d7d;
+		font-weight: bold;
+	}
+	.content{
+		width: 661px;
+		margin: 0 auto;
+		padding-top:29px;
+	}
+	.btn{
+		width: 100px;
+		height: 31px;
+		background: #e7788d;
+		float: left;
+		color: #fff;
+		text-align: center;
+		font: 16px/31px bold  mircosoft yahei;
+	}
+	.list1 ul{
+		overflow: hidden;
+	}
+	.list1-ul li{
+		width: 93px;
+		height: 31px;
+		text-align: center;
+		color: #7d7d7d;
+		float: left;
+		font: 14px/31px mircosoft yahei bold;
+		position: relative;
+	}
+	 .list1-ul li:after {
+        content: '';
+        height: 18px;
+        position: absolute;
+        top: 7px;
+        left: 0px;
+        border-right:1px solid #bebebe;
+    }
+    .list1-ul li:first-child:after {
+        height: 0px;
+    }
+    .list2{
+    	margin-top:12px;
+    }
+	</style>
+</head>
+<body>
+	<div class="bg-img">
+		<div class="bg">
+			<header>
+				<span> 全球通业务+</span>
+			</header><!-- /header -->
+		<section class="contain">
+			<div class="modu">
+				<div class="icon">
+					<img src="img/icon1.png" alt="">
+				</div>
+				<span>信息管家</span>
+			</div>
+			<div class="modu">
+				<div class="icon">
+					<img src="img/icon2.png" alt="">
+				</div>
+				<span>无线音乐专区</span>
+			</div>
+			<div class="modu">
+				<div class="icon">
+					<img src="img/icon3.png" alt="">
+				</div>
+				<span>手机证券</span>
+			</div>
+			<div class="modu">
+				<div class="icon">
+					<img src="img/icon4.png" alt="">
+				</div>
+				<span>飞信</span>
+			</div>
+			<div class="modu">
+				<div class="icon">
+					<img src="img/icon5.png" alt="">
+				</div>
+				<span>短信回执</span>
+			</div>
+		</section>
+		<footer>
+			<div class="content">
+				<div class="list1">
+					<div class="btn">基本业务</div>
+					<div class="list1-ul">
+					<ul>
+						<li>国际漫游</li>
+						<li>国际长途</li>
+						<li>国内长途</li>
+						<li>国内漫游</li>
+						<li>本地通话</li>
+						<li>更多>></li>
+					</ul>
+				</div>
+				</div>
+				<div class="list2">
+					<div class="btn">基本业务</div>
+					<div class="list1-ul">
+					<ul>
+						<li>国际漫游</li>
+						<li>国际长途</li>
+						<li>国内长途</li>
+						<li>国内漫游</li>
+						<li>本地通话</li>
+						<li>更多>></li>
+					</ul>
+				</div>
+				</div>
+			</div>
+		</footer>
+		</div>
+	</div>
+</body>
+</html>

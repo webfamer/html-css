@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>淘宝模块</title>
+</head>
+<style>
+    *{
+        font-family: "Microsoft YaHei", "黑体", "宋体", "Arial", sans-serif;
+    }
+    h1,h2,h3,h4,body,p,dl,dd,ul,ol,img,span{
+        margin: 0;
+        padding: 0;
+        border:none;
+    }
+    img{
+        vertical-align: top;/*垂直无间隙*/
+        border:none;
+    }
+    a{
+        text-decoration:none;
+    }
+    em{
+        font-style: normal;
+    }
+    ul,ol{
+        list-style: none;
+    }
+
+    #box{
+        margin: 100px;
+        width: 1171px;
+        height: 367px;
+        box-shadow: 0 0 10px 5px #aaa;
+        background-color: #ffffff;
+
+    }
+    .cont{
+        width: 197px;
+        height: 363px;
+        border-top:#e8e8e8 1px solid ;
+        border-bottom:#e8e8e8 1px solid ;
+        border-right:#e8e8e8 1px solid ;
+        margin:1px 0 1px 0;
+        display: inline-block;
+        margin-left: -4px;
+        margin-right: -5px;
+    }
+
+    .cont .title{
+        margin-top: 13px;
+        margin-left: 14px;
+        font-size: 16px;
+        height: 16px;
+        line-height: 16px;
+        display: inline-block;
+    }
+    .qrcode{
+        font-size:0 ;/*消除img之间的间距*/
+        margin-top: 16px;
+        margin-left: 5px;
+        display: inline-block;
+        overflow: hidden;
+        height: 12px;
+        line-height: 12px ;
+    }
+
+
+    .top_cont img{
+        margin-top: 12px;
+        margin-left: 14px;
+    }
+    .top_cont p{
+        width: 169px;
+        margin-left: 14px;
+        background-color: #f5f5f5;
+        font-size: 12px;
+        height: 12px;
+        line-height: 12px;
+        color: #646464;
+        font-family: "Microsoft YaHei", "黑体", "宋体", "Arial", sans-serif;
+        text-align: center;
+    }
+    .cont .top_cont .title_1{
+        font-weight: bold;
+        padding-top: 11px;
+        padding-bottom: 7px;
+
+    }
+    .cont .top_cont .title_2{
+        padding-bottom: 8px;
+    }
+    .cont .mid_cont{
+        margin-top: 13px;
+        margin-left: 14px;
+        font-size:0
+    }
+    .cont .mid_cont img:first-child{
+        margin-right: 9px;
+    }
+    .bottom_cont .title_3{
+        margin-top: 10px;
+        margin-left: 24px;
+        height: 12px;
+        line-height: 12px;
+    }
+    .bottom_cont .title_3 span{
+        font-size: 12px;
+        color:#3c3c3c;
+        font-weight: bold;
+    }
+    .bottom_cont .title_3 span:first-child{
+        margin-right: 24px;
+    }
+    .bottom_cont .title_4{
+        margin-top: 11px;
+        margin-left: 14px;
+        height: 12px;
+        line-height: 12px;
+    }
+    .bottom_cont .title_4 span{
+        font-size: 12px;
+        color:#3c3c3c;
+        font-weight: bold;
+    }
+    .bottom_cont .title_4 em{
+        margin: 0 6px 0 6px;
+        font-size: 14px;
+        height: 14px;
+        line-height: 14px;
+        color: #e1e1e1;
+    }
+    .bottom_cont .title_5{
+        margin-top: 14px;
+        margin-left: 15px;
+        height: 12px;
+        line-height: 12px;
+    }
+    .bottom_cont .title_5 span:first-child em{
+        height: 12px;
+        line-height: 12px;
+        color: #e4e4e4;
+    }
+    .bottom_cont .title_5 span:first-child em:first-child{
+        margin-right: 5px;
+    }
+    .bottom_cont .title_5 span:first-child em:nth-child(2){
+        margin-left: 5px;
+    }
+    .bottom_cont .title_5 span:first-child{
+        color: #ff4400;
+    }
+    .bottom_cont .title_5 span:nth-child(2){
+        margin-left: 8px;
+    }
+    .bottom_cont .title_5 span{
+        font-size: 12px;
+        color:#3c3c3c;
+        font-weight: bold;
+    }
+    .first-cont{
+        border-left:#e8e8e8 1px solid ;
+        margin-left: 1px;
+    }
+
+</style>
+<body>
+    <div id="box">
+        <div class="cont first-cont">
+            <p class="title">众筹</p
+            ><div class="qrcode">
+                <img  src="./taobao_img/img_1.png" alt="">
+            </div>
+            <div class="top_cont">
+                <img src="./taobao_img/img_2.png" alt="">
+                <p class="title_1">迷你无人机-小到不可思议</p>
+                <p class="title_2">年轻人的新玩具</p>
+            </div>
+            <div class="mid_cont">
+                <img src="./taobao_img/img_7.png" alt="">
+                <img src="./taobao_img/img_8.png" alt="">
+            </div>
+            <div class="bottom_cont">
+                <div class="title_3">
+                    <span>智能折叠车</span
+                    ><span>防水智能插座</span>
+                </div>
+                <div class="title_4">
+                    <span>科技控</span
+                    ><em>|</em><span>创意设计</span
+                    ><em>|</em><span>最新周边</span>
+                </div>
+                <div class="title_5">
+                    <span><em>[</em>明星同款<em>]</em></span
+                    ><span>投在冬笋</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="cont">
+            <p class="title">众筹</p
+            ><div class="qrcode">
+            <img  src="./taobao_img/img_1.png" alt="">
+        </div>
+            <div class="top_cont">
+                <img src="./taobao_img/img_2.png" alt="">
+                <p class="title_1">迷你无人机-小到不可思议</p>
+                <p class="title_2">年轻人的新玩具</p>
+            </div>
+            <div class="mid_cont">
+                <img src="./taobao_img/img_7.png" alt="">
+                <img src="./taobao_img/img_8.png" alt="">
+            </div>
+            <div class="bottom_cont">
+                <div class="title_3">
+                    <span>智能折叠车</span
+                    ><span>防水智能插座</span>
+                </div>
+                <div class="title_4">
+                    <span>科技控</span
+                    ><em>|</em><span>创意设计</span
+                ><em>|</em><span>最新周边</span>
+                </div>
+                <div class="title_5">
+                    <span><em>[</em>明星同款<em>]</em></span
+                    ><span>投在冬笋</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="cont">
+            <p class="title">众筹</p
+            ><div class="qrcode">
+            <img  src="./taobao_img/img_1.png" alt="">
+        </div>
+            <div class="top_cont">
+                <img src="./taobao_img/img_2.png" alt="">
+                <p class="title_1">迷你无人机-小到不可思议</p>
+                <p class="title_2">年轻人的新玩具</p>
+            </div>
+            <div class="mid_cont">
+                <img src="./taobao_img/img_7.png" alt="">
+                <img src="./taobao_img/img_8.png" alt="">
+            </div>
+            <div class="bottom_cont">
+                <div class="title_3">
+                    <span>智能折叠车</span
+                    ><span>防水智能插座</span>
+                </div>
+                <div class="title_4">
+                    <span>科技控</span
+                    ><em>|</em><span>创意设计</span
+                ><em>|</em><span>最新周边</span>
+                </div>
+                <div class="title_5">
+                    <span><em>[</em>明星同款<em>]</em></span
+                    ><span>投在冬笋</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="cont">
+            <p class="title">众筹</p
+            ><div class="qrcode">
+            <img  src="./taobao_img/img_1.png" alt="">
+        </div>
+            <div class="top_cont">
+                <img src="./taobao_img/img_2.png" alt="">
+                <p class="title_1">迷你无人机-小到不可思议</p>
+                <p class="title_2">年轻人的新玩具</p>
+            </div>
+            <div class="mid_cont">
+                <img src="./taobao_img/img_7.png" alt="">
+                <img src="./taobao_img/img_8.png" alt="">
+            </div>
+            <div class="bottom_cont">
+                <div class="title_3">
+                    <span>智能折叠车</span
+                    ><span>防水智能插座</span>
+                </div>
+                <div class="title_4">
+                    <span>科技控</span
+                    ><em>|</em><span>创意设计</span
+                ><em>|</em><span>最新周边</span>
+                </div>
+                <div class="title_5">
+                    <span><em>[</em>明星同款<em>]</em></span
+                    ><span>投在冬笋</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="cont">
+            <p class="title">众筹</p
+            ><div class="qrcode">
+            <img  src="./taobao_img/img_1.png" alt="">
+        </div>
+            <div class="top_cont">
+                <img src="./taobao_img/img_2.png" alt="">
+                <p class="title_1">迷你无人机-小到不可思议</p>
+                <p class="title_2">年轻人的新玩具</p>
+            </div>
+            <div class="mid_cont">
+                <img src="./taobao_img/img_7.png" alt="">
+                <img src="./taobao_img/img_8.png" alt="">
+            </div>
+            <div class="bottom_cont">
+                <div class="title_3">
+                    <span>智能折叠车</span
+                    ><span>防水智能插座</span>
+                </div>
+                <div class="title_4">
+                    <span>科技控</span
+                    ><em>|</em><span>创意设计</span
+                ><em>|</em><span>最新周边</span>
+                </div>
+                <div class="title_5">
+                    <span><em>[</em>明星同款<em>]</em></span
+                    ><span>投在冬笋</span>
+                </div>
+
+            </div>
+        </div>
+        <div class="cont">
+            <p class="title">众筹</p
+            ><div class="qrcode">
+            <img  src="./taobao_img/img_1.png" alt="">
+        </div>
+            <div class="top_cont">
+                <img src="./taobao_img/img_2.png" alt="">
+                <p class="title_1">迷你无人机-小到不可思议</p>
+                <p class="title_2">年轻人的新玩具</p>
+            </div>
+            <div class="mid_cont">
+                <img src="./taobao_img/img_7.png" alt="">
+                <img src="./taobao_img/img_8.png" alt="">
+            </div>
+            <div class="bottom_cont">
+                <div class="title_3">
+                    <span>智能折叠车</span
+                    ><span>防水智能插座</span>
+                </div>
+                <div class="title_4">
+                    <span>科技控</span
+                    ><em>|</em><span>创意设计</span
+                ><em>|</em><span>最新周边</span>
+                </div>
+                <div class="title_5">
+                    <span><em>[</em>奥莱扫货直播<em>]</em></span
+                    ><span>奥莱扫货直播</span>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
